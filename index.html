@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMERCE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>  
+  <body translate="no">
+    <header>
+    <h1>Commerce Department<br> Wall Magazine</h1>
+  </header>
+  <section class="section1">
+          <div class="book">
+            <div id="embeddedContent"></div>
+            </div>          
+  </section>
+  <section class="section2">
+    <h2>
+      The Wall Magazine of Commerce Department is inaugurated by respected Vice-Principal Dr. Chandana Sinha Roy, in presence faculties and students of the department. The theme of the Wall Magazine was "Tourism of Assam", where major tourist spots of Assam, are presented through it. In the inauguration ceremony, respected Vice-Principal madam has addressed to all after inauguration and explain how this type of works helps the students in participative learning and also encouraged the students and faculty to continue sach type of activities in upcoming time regularly. She also appreciated the students for such a beautiful presentation of the Wall Magazine.
+    </h2>
+  </section>
+  <script>
+    // Function to embed content from a different website
+    function embedExternalContent() {
+        // Replace "https://example.com/" with the actual URL
+        var externalUrl = "https://panducollege.github.io/commercewallmagazin2023/";
+
+        // Create an iframe element
+        var iframe = document.createElement('iframe');
+
+        // Set attributes for the iframe
+        iframe.src = externalUrl;
+        iframe.width = "100%";
+        iframe.height = "100%";
+        iframe.frameBorder = "0"; // Remove iframe border
+
+        // Append the iframe to the container element
+        document.getElementById('embeddedContent').appendChild(iframe);
+    }
+
+    // Call the function to embed content when the page loads
+    window.onload = function() {
+        embedExternalContent();
+    };
+</script>
+
+<div class="deep">Deep</div>
+  </body>
+  </html>
