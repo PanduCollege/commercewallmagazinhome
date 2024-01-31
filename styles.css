@@ -147,6 +147,7 @@ h2 {
     perspective: 1px;
     transform-style: preserve-3d; 
     font-family: 'Overlock', Arial, Helvetica, sans-serif;
+    background-color: black;
   }
 @media (max-width: 450px) {
   h1{
