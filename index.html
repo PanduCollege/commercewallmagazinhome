@@ -44,29 +44,6 @@
         embedExternalContent();
     };
 </script>
-    <script>
-        // Lock the orientation when the page loads
-        function lockOrientation() {
-            if (screen.orientation) {
-                screen.orientation.lock('portrait').catch(function(error) {
-                    console.error('Error locking orientation:', error);
-                });
-            }
-        }
-
-        // Listen for changes in orientation and lock it again if necessary
-        function handleOrientationChange() {
-            if (screen.orientation && screen.orientation.type !== 'portrait') {
-                lockOrientation();
-            }
-        }
-
-        // Attach the lockOrientation function to the load event
-        window.addEventListener('load', lockOrientation);
-
-        // Attach the handleOrientationChange function to the orientationchange event
-        window.addEventListener('orientationchange', handleOrientationChange);
-    </script>
 <h3>&copy; <a href="https://www.instagram.com/deepjyoti_seal">DeepjyotiSeal</a> & <a href="https://www.instagram.com/kamal_medhi7434">KamalMedhi</a></h3>
   </body>
   </html>
