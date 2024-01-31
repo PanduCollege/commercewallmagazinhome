@@ -40,6 +40,7 @@ h2 {
     transform-style: inherit;
     z-index: -1;
   }
+
   
   header::before {
     content: '';
@@ -52,7 +53,7 @@ h2 {
     min-height: 100%;
     z-index: -2;
   }
-  
+
   
   /*************************************************************
     SECTIONS
@@ -147,8 +148,10 @@ h2 {
     perspective: 1px;
     transform-style: preserve-3d; 
     font-family: 'Overlock', Arial, Helvetica, sans-serif;
-    background-color: black;
+   
+    
   }
+
 @media (max-width: 450px) {
   h1{
     font-size: 25px;
@@ -158,5 +161,18 @@ h2 {
   }
   h2{
     font-size: 15px;
+  }
+  h3{
+    padding-top: 120px;
+    bottom: 0;
+    color: black;
+    text-align: center;
+    font-size: 10px;;
+    
+  }
+
+  h3 a{
+    text-decoration: none;
+    color: orangered;
   }
 }
